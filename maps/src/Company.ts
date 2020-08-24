@@ -25,6 +25,6 @@ export class Company implements Mappable {
                 <h1>Company Name : ${this.companyName}</h1>
                 <h3>CatchPhrase : ${this.catchPhrase}</h3>
             </div>
-`;
+        `;
     }
 }

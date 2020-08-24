@@ -1,6 +1,3 @@
-import {User} from './User';
-import {Company} from './Company';
-
 export interface Mappable {
     location: {
         lat: number;
@@ -36,8 +33,8 @@ export class CustomMap {
             const infoWindow = new google.maps.InfoWindow({
                 content: mappable.markerContent()
             });
-            
-            infoWindow.open(this.googleMap,marker);
+
+            infoWindow.open(this.googleMap, marker);
         });
 
     }
